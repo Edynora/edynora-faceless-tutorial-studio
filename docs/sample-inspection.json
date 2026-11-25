@@ -1,0 +1,101 @@
+{
+  "ok": true,
+  "status": "success",
+  "recording": {
+    "file": "recording.webm",
+    "width": 1280,
+    "height": 720,
+    "bytes": 589701,
+    "valid": true,
+    "durationMs": 10532
+  },
+  "actions": [
+    {
+      "id": "_initial_navigation",
+      "type": "navigate",
+      "startMs": 11,
+      "endMs": 762,
+      "result": "success"
+    },
+    {
+      "id": "intro",
+      "type": "pause",
+      "startMs": 762,
+      "endMs": 2078,
+      "result": "success"
+    },
+    {
+      "id": "reports",
+      "type": "click",
+      "target": {
+        "by": "role",
+        "role": "button",
+        "name": "Reports"
+      },
+      "startMs": 2078,
+      "endMs": 3402,
+      "result": "success"
+    },
+    {
+      "id": "filter",
+      "type": "type",
+      "target": {
+        "by": "label",
+        "value": "Filter reports"
+      },
+      "startMs": 3402,
+      "endMs": 4612,
+      "result": "success"
+    },
+    {
+      "id": "period",
+      "type": "select",
+      "target": {
+        "by": "label",
+        "value": "Period"
+      },
+      "startMs": 4612,
+      "endMs": 5742,
+      "result": "success"
+    },
+    {
+      "id": "prepare",
+      "type": "click",
+      "target": {
+        "by": "role",
+        "role": "button",
+        "name": "Prepare report"
+      },
+      "startMs": 5742,
+      "endMs": 7070,
+      "result": "success"
+    },
+    {
+      "id": "verify",
+      "type": "assert",
+      "target": {
+        "by": "css",
+        "value": "#status"
+      },
+      "startMs": 7070,
+      "endMs": 7795,
+      "result": "success"
+    },
+    {
+      "id": "preview",
+      "type": "screenshot",
+      "startMs": 7795,
+      "endMs": 8563,
+      "result": "success",
+      "screenshot": "screenshots/preview.png"
+    },
+    {
+      "id": "hold",
+      "type": "pause",
+      "startMs": 8563,
+      "endMs": 10278,
+      "result": "success"
+    }
+  ],
+  "reviewRequired": true
+}

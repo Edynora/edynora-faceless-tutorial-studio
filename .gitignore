@@ -1,0 +1,11 @@
+node_modules/
+dist/
+output/
+test-output/
+.claude-test/
+.install-test/
+*.tgz
+*.log
+.env*
+!.env.example
+.superpowers/

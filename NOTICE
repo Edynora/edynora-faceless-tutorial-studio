@@ -1,0 +1,14 @@
+Edynora Faceless Tutorial Studio
+Copyright 2026 Edynora
+Original project code is offered under Apache License 2.0.
+
+"Edynora" is a project/brand label, not an assertion of incorporation or
+ownership of third-party software. The copyright notice above was supplied
+by the project maintainer. No registered corporate status is asserted.
+See docs/RELEASE_NOTES.md for outstanding public-release checks.
+
+This project depends on Playwright (Microsoft, Apache-2.0) and Zod (MIT).
+See docs/THIRD_PARTY_LICENSES.md and docs/licenses for upstream notices.
+Browser/recorder binaries are downloaded by the user from Playwright and are
+not included in this source package. They have their own licenses, including
+Chromium third-party notices and Playwright's LGPL FFmpeg recorder build.

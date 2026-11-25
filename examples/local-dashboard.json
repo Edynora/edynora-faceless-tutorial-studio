@@ -1,0 +1,119 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "local-dashboard",
+  "title": "Local dashboard tutorial",
+  "objective": "Open Reports, filter Revenue and prepare a report",
+  "url": "http://127.0.0.1:4173",
+  "outputDir": "../output/local-dashboard",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "recording": {
+    "width": 1280,
+    "height": 720,
+    "maxDurationMs": 120000,
+    "maxBytes": 250000000
+  },
+  "network": {
+    "allowedOrigins": [
+      "http://127.0.0.1:4173"
+    ],
+    "allowLoopback": true
+  },
+  "privacy": {
+    "maskSelectors": [
+      "[data-private]"
+    ]
+  },
+  "cursor": {
+    "enabled": true,
+    "size": 26,
+    "speed": 900,
+    "trail": false,
+    "clickAnimation": true,
+    "reducedMotion": false
+  },
+  "pacing": {
+    "beforeMs": 200,
+    "afterMs": 500,
+    "actionTimeoutMs": 10000
+  },
+  "actions": [
+    {
+      "id": "reports",
+      "label": "Open Reports",
+      "narration": "Open the Reports panel.",
+      "effect": "read",
+      "type": "click",
+      "target": {
+        "by": "role",
+        "role": "button",
+        "name": "Reports"
+      }
+    },
+    {
+      "id": "ready",
+      "effect": "read",
+      "type": "wait",
+      "target": {
+        "by": "role",
+        "role": "heading",
+        "name": "Reports"
+      }
+    },
+    {
+      "id": "filter",
+      "label": "Filter Revenue",
+      "effect": "read",
+      "type": "type",
+      "target": {
+        "by": "label",
+        "value": "Filter reports"
+      },
+      "value": "Revenue"
+    },
+    {
+      "id": "period",
+      "effect": "read",
+      "type": "select",
+      "target": {
+        "by": "label",
+        "value": "Period"
+      },
+      "value": "month"
+    },
+    {
+      "id": "prepare",
+      "label": "Prepare report",
+      "effect": "read",
+      "type": "click",
+      "target": {
+        "by": "role",
+        "role": "button",
+        "name": "Prepare report"
+      }
+    },
+    {
+      "id": "verify",
+      "effect": "read",
+      "type": "assert",
+      "target": {
+        "by": "css",
+        "value": "#status"
+      },
+      "text": "Report prepared for review"
+    },
+    {
+      "id": "preview",
+      "effect": "read",
+      "type": "screenshot"
+    },
+    {
+      "id": "hold",
+      "effect": "read",
+      "type": "pause",
+      "ms": 1000
+    }
+  ]
+}

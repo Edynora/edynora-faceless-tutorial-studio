@@ -1,0 +1,8 @@
+{
+  "name": "edynora-local",
+  "metadata": { "description": "Local Edynora browser tutorial plugin distribution for development and testing" },
+  "owner": { "name": "Edynora project contributors" },
+  "plugins": [
+    { "name": "edynora-studio", "source": "./", "description": "Standalone browser tutorial recording adapter", "version": "0.1.0" }
+  ]
+}

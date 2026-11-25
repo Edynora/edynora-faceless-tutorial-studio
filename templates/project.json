@@ -1,0 +1,41 @@
+{
+  "schemaVersion": "1.0",
+  "projectId": "starter-project",
+  "title": "My tutorial",
+  "objective": "Describe the lesson",
+  "url": "https://example.com",
+  "outputDir": "output",
+  "viewport": {
+    "width": 1280,
+    "height": 720
+  },
+  "recording": {
+    "width": 1280,
+    "height": 720,
+    "maxDurationMs": 120000,
+    "maxBytes": 250000000
+  },
+  "network": {
+    "allowedOrigins": [
+      "https://example.com"
+    ],
+    "allowLoopback": false
+  },
+  "privacy": {
+    "maskSelectors": []
+  },
+  "cursor": {
+    "enabled": true,
+    "size": 26,
+    "speed": 900,
+    "trail": false,
+    "clickAnimation": true,
+    "reducedMotion": false
+  },
+  "pacing": {
+    "beforeMs": 200,
+    "afterMs": 500,
+    "actionTimeoutMs": 10000
+  },
+  "actions": []
+}

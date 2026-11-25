@@ -1,0 +1,10 @@
+{
+  "name": "edynora-studio",
+  "version": "0.1.0",
+  "description": "Create and record local deterministic browser tutorials with the standalone Edynora CLI.",
+  "author": { "name": "Edynora project contributors" },
+  "license": "Apache-2.0",
+  "repository": "https://github.com/Edynora/edynora-faceless-tutorial-studio",
+  "homepage": "https://github.com/Edynora/edynora-faceless-tutorial-studio#readme",
+  "keywords": ["tutorial", "browser", "recording", "local-first"]
+}

@@ -1,0 +1,641 @@
+[
+  {
+    "id": "edynora-faceless-tutorial-studio@0.1.0",
+    "name": "edynora-faceless-tutorial-studio",
+    "version": "0.1.0",
+    "size": 144149,
+    "unpackedSize": 957812,
+    "shasum": "924affc8fb7eedff0688b0e6b60cd1303884a6b7",
+    "integrity": "sha512-//1ymAProuhUlj8wmJxVQe0bhwWZG8MoHcV5aFX4h4YxdciSMMvWv12sdo5e8f+iU4LqaM5CQ70vBIdtWyWvyw==",
+    "filename": "edynora-faceless-tutorial-studio-0.1.0.tgz",
+    "files": [
+      {
+        "path": ".claude-plugin/marketplace.json",
+        "size": 353,
+        "mode": 420
+      },
+      {
+        "path": ".claude-plugin/plugin.json",
+        "size": 312,
+        "mode": 420
+      },
+      {
+        "path": "LICENSE",
+        "size": 11627,
+        "mode": 420
+      },
+      {
+        "path": "NOTICE",
+        "size": 776,
+        "mode": 420
+      },
+      {
+        "path": "README.md",
+        "size": 4959,
+        "mode": 420
+      },
+      {
+        "path": "commands/doctor.md",
+        "size": 472,
+        "mode": 420
+      },
+      {
+        "path": "commands/record.md",
+        "size": 1215,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/adapters/src/index.d.ts",
+        "size": 296,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/adapters/src/index.js",
+        "size": 44,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/adapters/src/index.js.map",
+        "size": 129,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/fixture.d.ts",
+        "size": 3653,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/fixture.js",
+        "size": 3646,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/fixture.js.map",
+        "size": 202,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/index.d.ts",
+        "size": 391,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/index.js",
+        "size": 2922,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/browser/src/index.js.map",
+        "size": 3166,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cli/src/index.d.ts",
+        "size": 31,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cli/src/index.js",
+        "size": 10828,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cli/src/index.js.map",
+        "size": 10794,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/core/src/index.d.ts",
+        "size": 533,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/core/src/index.js",
+        "size": 11967,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/core/src/index.js.map",
+        "size": 11936,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cursor/src/index.d.ts",
+        "size": 947,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cursor/src/index.js",
+        "size": 8022,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/cursor/src/index.js.map",
+        "size": 8158,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/exporters/src/index.d.ts",
+        "size": 484,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/exporters/src/index.js",
+        "size": 4285,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/exporters/src/index.js.map",
+        "size": 4574,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/privacy/src/index.d.ts",
+        "size": 395,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/privacy/src/index.js",
+        "size": 2949,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/privacy/src/index.js.map",
+        "size": 3655,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/recorder/src/index.d.ts",
+        "size": 125,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/recorder/src/index.js",
+        "size": 666,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/recorder/src/index.js.map",
+        "size": 943,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/files.d.ts",
+        "size": 390,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/files.js",
+        "size": 2039,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/files.js.map",
+        "size": 2531,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/schema.d.ts",
+        "size": 21888,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/schema.js",
+        "size": 7074,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/schema.js.map",
+        "size": 10848,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/timing.d.ts",
+        "size": 80,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/timing.js",
+        "size": 217,
+        "mode": 420
+      },
+      {
+        "path": "dist/packages/shared/src/timing.js.map",
+        "size": 312,
+        "mode": 420
+      },
+      {
+        "path": "docs/ARCHITECTURE_DECISIONS.md",
+        "size": 2914,
+        "mode": 420
+      },
+      {
+        "path": "docs/ARCHITECTURE.md",
+        "size": 2228,
+        "mode": 420
+      },
+      {
+        "path": "docs/CLAUDE_CODE_PLUGIN.md",
+        "size": 3365,
+        "mode": 420
+      },
+      {
+        "path": "docs/CLI.md",
+        "size": 2646,
+        "mode": 420
+      },
+      {
+        "path": "docs/CURSOR.md",
+        "size": 1994,
+        "mode": 420
+      },
+      {
+        "path": "docs/dependency-licenses.json",
+        "size": 17268,
+        "mode": 420
+      },
+      {
+        "path": "docs/dependency-tree.json",
+        "size": 12120,
+        "mode": 420
+      },
+      {
+        "path": "docs/DESIGN.md",
+        "size": 3621,
+        "mode": 420
+      },
+      {
+        "path": "docs/EXPORT_FORMAT.md",
+        "size": 2226,
+        "mode": 420
+      },
+      {
+        "path": "docs/IMPLEMENTATION_PLAN.md",
+        "size": 2828,
+        "mode": 420
+      },
+      {
+        "path": "docs/INSTALLATION.md",
+        "size": 3303,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@jridgewell__resolve-uri/LICENSE",
+        "size": 1079,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@jridgewell__sourcemap-codec/LICENSE",
+        "size": 1080,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@jridgewell__trace-mapping/LICENSE",
+        "size": 1080,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@types__chai/LICENSE",
+        "size": 1141,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@types__deep-eql/LICENSE",
+        "size": 1141,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@types__estree/LICENSE",
+        "size": 1141,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@types__node/LICENSE",
+        "size": 1141,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@vitest__mocker/LICENSE",
+        "size": 1102,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__@vitest__spy/LICENSE",
+        "size": 1102,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__assertion-error/LICENSE",
+        "size": 1108,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__chai/LICENSE",
+        "size": 1082,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__es-module-lexer/LICENSE",
+        "size": 1085,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__esbuild/LICENSE.md",
+        "size": 1069,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__estree-walker/LICENSE",
+        "size": 1126,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__expect-type/LICENSE",
+        "size": 10760,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__fdir/LICENSE",
+        "size": 1053,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__magic-string/LICENSE",
+        "size": 1051,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__nanoid/LICENSE",
+        "size": 1095,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__obug/LICENSE",
+        "size": 1205,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__picocolors/LICENSE",
+        "size": 787,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__picomatch/LICENSE",
+        "size": 1091,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/lib/serverRegistry.js.LICENSE",
+        "size": 2982,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/lib/utilsBundle.js.LICENSE",
+        "size": 107917,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/lib/webp_codec.LICENSE",
+        "size": 8841,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/LICENSE",
+        "size": 11601,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/NOTICE",
+        "size": 254,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright-core/ThirdPartyNotices.txt",
+        "size": 676,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/lib/matchers/expect.js.LICENSE",
+        "size": 36528,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/lib/transform/babelBundle.js.LICENSE",
+        "size": 123004,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/lib/transform/esmLoader.js.LICENSE",
+        "size": 17409,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/LICENSE",
+        "size": 11601,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/NOTICE",
+        "size": 254,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__playwright/ThirdPartyNotices.txt",
+        "size": 705,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__postcss/LICENSE",
+        "size": 1095,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__rollup/LICENSE.md",
+        "size": 35231,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__source-map-js/LICENSE",
+        "size": 1526,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__tinybench/LICENSE",
+        "size": 1065,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__tinyexec/LICENSE",
+        "size": 1065,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__tinyglobby/LICENSE",
+        "size": 1076,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__typescript/LICENSE.txt",
+        "size": 9197,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__typescript/ThirdPartyNoticeText.txt",
+        "size": 37824,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__undici-types/LICENSE",
+        "size": 1090,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__vite/LICENSE.md",
+        "size": 101176,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__vitest/LICENSE.md",
+        "size": 45247,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__why-is-node-running/LICENSE",
+        "size": 1079,
+        "mode": 420
+      },
+      {
+        "path": "docs/licenses/node_modules__zod/LICENSE",
+        "size": 1072,
+        "mode": 420
+      },
+      {
+        "path": "docs/npm-audit.json",
+        "size": 383,
+        "mode": 420
+      },
+      {
+        "path": "docs/OPEN_SOURCE_RESEARCH.md",
+        "size": 8601,
+        "mode": 420
+      },
+      {
+        "path": "docs/package-check.json",
+        "size": 0,
+        "mode": 420
+      },
+      {
+        "path": "docs/plugin-validation.json",
+        "size": 2555,
+        "mode": 420
+      },
+      {
+        "path": "docs/PROJECT_SCHEMA.md",
+        "size": 3294,
+        "mode": 420
+      },
+      {
+        "path": "docs/RECORDING.md",
+        "size": 2854,
+        "mode": 420
+      },
+      {
+        "path": "docs/RELEASE_NOTES.md",
+        "size": 3260,
+        "mode": 420
+      },
+      {
+        "path": "docs/RESEARCH_REVISIONS.md",
+        "size": 2621,
+        "mode": 420
+      },
+      {
+        "path": "docs/research-evidence.json",
+        "size": 43787,
+        "mode": 420
+      },
+      {
+        "path": "docs/sample-inspection.json",
+        "size": 1901,
+        "mode": 420
+      },
+      {
+        "path": "docs/sample-video-probe.json",
+        "size": 290,
+        "mode": 420
+      },
+      {
+        "path": "docs/SECURITY_PRIVACY.md",
+        "size": 4802,
+        "mode": 420
+      },
+      {
+        "path": "docs/THIRD_PARTY_LICENSES.md",
+        "size": 3399,
+        "mode": 420
+      },
+      {
+        "path": "docs/TROUBLESHOOTING.md",
+        "size": 3423,
+        "mode": 420
+      },
+      {
+        "path": "docs/VERIFICATION.md",
+        "size": 6606,
+        "mode": 420
+      },
+      {
+        "path": "examples/local-dashboard.json",
+        "size": 2311,
+        "mode": 420
+      },
+      {
+        "path": "package.json",
+        "size": 1255,
+        "mode": 420
+      },
+      {
+        "path": "schemas/assets.schema.json",
+        "size": 1277,
+        "mode": 420
+      },
+      {
+        "path": "schemas/project.schema.json",
+        "size": 41406,
+        "mode": 420
+      },
+      {
+        "path": "schemas/timeline.schema.json",
+        "size": 9872,
+        "mode": 420
+      },
+      {
+        "path": "scripts/claude-adapter.mjs",
+        "size": 1185,
+        "mode": 420
+      },
+      {
+        "path": "scripts/licenses.mjs",
+        "size": 1968,
+        "mode": 420
+      },
+      {
+        "path": "scripts/schemas.mjs",
+        "size": 550,
+        "mode": 420
+      },
+      {
+        "path": "skills/tutorial/SKILL.md",
+        "size": 2069,
+        "mode": 420
+      },
+      {
+        "path": "templates/project.json",
+        "size": 762,
+        "mode": 420
+      }
+    ],
+    "entryCount": 125,
+    "bundled": []
+  }
+]
