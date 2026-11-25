@@ -1,5 +1,10 @@
 # Edynora Faceless Tutorial Studio
 
+> **Official repository: [EdynoraHQ/edynora-faceless-tutorial-studio](https://github.com/EdynoraHQ/edynora-faceless-tutorial-studio)**
+>
+> This personal-account repository is retained as a historical copy. Use the official organization repository linked above for current code, documentation, issues, and releases.
+
+
 **AI Workflows. Intelligent Automation. Smarter Work.**
 
 Automate. Demonstrate. Record. Teach.
